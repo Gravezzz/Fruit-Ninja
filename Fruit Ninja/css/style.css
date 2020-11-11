@@ -1,0 +1,80 @@
+#igra {
+	background-image: url(Fon.jpg);
+	width: 600px;
+	height: 400px;
+	margin: 0 auto;
+	position: relative;
+	border: 2px solid grey;
+	overflow: hidden; 
+}
+.ball {
+	position: absolute;
+	background: red;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+    left: 250px;
+    top: 150px;
+    transition: all 1s;
+}
+.left {
+	top: 500px;
+	left: -100px;
+}
+.right {
+	top: 500px;
+	left: 700px;
+}
+#stars {
+	position: absolute;
+	top: 5px;
+	left: 10px;
+	font-size: 44px;
+	color: white;
+}
+#lifes {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+#lifes span {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	border: 1px solid #fff;
+	background: red;
+	display:block;
+	float: left;
+}
+#start-block {
+	width: 100%;
+	height: 100%;
+	background: #FFF;
+	position: absolute;
+	top: 0;
+	left: 0;
+;
+}
+#start-block button{
+	margin: 100px auto;
+	display: block;
+	padding: 40px 80px;
+	font-size: 34px
+}
+#moveRight{
+	position: absolute;
+	display: block;
+	top: 410px;
+	left: 0px;	
+}
+#koviec-igra{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #1d71bb;
+	color: white;
+	text-align: center;
+	font-size: 40px;
+}
